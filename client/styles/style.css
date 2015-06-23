@@ -1,0 +1,308 @@
+/* CSS declarations go here */
+
+@-webkit-keyframes spin-180 {
+    from {
+      transform: rotate(0deg);
+    } to {
+      transform: rotate(180deg);
+    }
+}
+@-moz-keyframes spin-180 {
+    from {
+      transform: rotate(0deg);
+    } to {
+      transform: rotate(180deg);
+    }
+}
+@keyframes spin-180 {
+    from {
+      transform: rotate(0deg);
+    } to {
+      transform: rotate(180deg);
+    }
+}
+
+.line.active .mdi-navigation-expand-more {
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation: spin-180 0.25s 1 ease-out;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation: spin-180 0.25s 1 ease-out;
+  -moz-animation-fill-mode: forwards;
+  animation: spin-180 0.25s 1 ease-out;
+  animation-fill-mode: forwards;
+}
+
+.line-background {
+  position: fixed;
+  width: 10px;
+  height: 100%;
+  top: 0;
+  left: 15px;
+  z-index: -1;
+}
+
+body {
+  background-color: lightblue;
+}
+
+/* Colors are from MBTA maps */
+.red-line {
+  background-color: #C60813;
+}
+
+.orange-line {
+  background-color: #FA6820;
+}
+
+.green-line {
+  background-color: #0A6536;
+}
+
+.blue-line {
+  background-color: #041299;
+}
+
+.purple-line {
+  background-color: #801174;
+}
+
+.silver-line {
+  background-color: #949494;
+}
+
+h1.transport-type {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1em;
+  margin: 0;
+  text-transform: uppercase;
+  color: #B3B3B3;
+}
+
+ul.slogans {
+  margin-top: 0;
+}
+
+/* Collapsible menu styling */
+
+ul.collapsible {
+  margin-bottom: 30px;
+}
+
+.collapsible-body {
+  padding: 10px;
+  text-align: left;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.collapsible-body:hover {
+  background-color: #ddd;
+}
+
+.collapsible-body > a {
+  color: black;
+}
+
+.collapsible-header {
+  text-align: left;
+  padding-left: 0px;
+}
+
+.collapsible-header:hover {
+  background-color: #f0f0f0;
+}
+
+.collapsible-header i.subway-icon {
+  width: 50px;
+  color: white;
+}
+
+.mdi-navigation {
+  text-align: right;
+}
+
+.navbar-fixed {
+  z-index: 99;
+  height: 50px;
+}
+
+.navbar-fixed nav {
+  height: 44px;
+  line-height: 1em;
+}
+
+.nav-wrapper {
+  overflow: hidden;
+  line-height: 1em;
+}
+
+.back-button {
+  float: left;
+  overflow: hidden;
+  position: absolute;
+  margin-left: 10px;
+  line-height: 44px;
+}
+
+.line-being-viewed {
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+}
+
+.top-panel {
+  margin-left: 30px;
+  overflow: hidden;
+  max-width: 500px;
+  padding: 5px;
+  margin-right: 15px;
+}
+
+img.top-panel-ninja {
+  height: 40px;
+  float: left;
+}
+
+.top-panel-text {
+  float: left;
+  margin-left: 5px;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.station {
+  margin-left: 7px;
+  margin-bottom: 10px;
+}
+
+.station-name {
+  text-transform: uppercase;
+}
+
+.white-circle {
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: white;
+  border: solid thin black;
+  float: left;
+  margin-right: 5px;
+  margin-top: 6px;
+  margin-left: 8px;
+}
+
+.reports-container {
+  margin-left: 30px;
+  max-width: 500px;
+  padding-right: 15px;
+}
+
+.report {
+  width: 100%;
+}
+
+span.report-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+
+span.report-location {
+  font-size: 12px;
+  color: #aaa;
+}
+
+span.report-detail {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.add-button-container {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+
+#add-modal {
+  max-width: 500px;
+}
+
+#add-modal .modal-content{
+  margin-bottom: 20px;
+}
+
+select {
+  display: block;
+}
+
+.intro-screen-content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo {
+  overflow: hidden;
+  width: 275px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.ninja-logo {
+  height: 64px;
+  width: 64px;
+  margin: 0 auto 10px auto;
+  float: left;
+}
+
+h1.app-title {
+  font-size: 32px;
+  margin: 15px 0 5px 0;
+  line-height: 1.2em;
+}
+
+h2.app-subtitle {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  line-height: 1.2em;
+  font-style: italic;
+}
+
+div.lines {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.share-buttons {
+  margin-bottom: 20px;
+}
+
+.credits {
+  font-size: 0.8em;
+}
+
+iframe#twitter-widget-0 {
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+
+.card a.btn-vote{
+  padding-left: 0.5rem;
+  padding-top: 0.01rem;
+  padding-right: 0.7rem;
+  padding-bottom: 0.01rem;
+  margin-right: 5px;
+}
+
+.card a.btn-vote i.left {
+  margin-right: 5px;
+}
