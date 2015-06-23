@@ -1,7 +1,7 @@
 # Shark.report
 Shark.report crowdsourced alerting system for real-time beach conditions.
 
-View the site: [mbta.ninja](http://shark.report)
+View the site: [shark.report](http://shark.report)
 
 #This project was forked from MBTA Ninja
 
