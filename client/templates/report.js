@@ -8,9 +8,15 @@ canUpvote = function(docId) {
 Template.report.helpers({
   canUpvote: canUpvote,
   positive: function(reportName) {
-    return (reportName === 'Normal conditions');
+    return reportName == 'Normal conditions' ||
+    reportName == 'Dolphins' ||
+    reportName == 'Whale' ||
+    reportName == 'Flat' ||
+    reportName == 'NSwell - 1-2 feet'
   }
+
 });
+
 
 Template.report.events({
   // Upvote the current event

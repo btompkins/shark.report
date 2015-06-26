@@ -15,25 +15,7 @@ Template.main.helpers({
   },
   lineColor: function() {
     var line = currentLine();
-    var lineColor = '';
-
-    if (line.indexOf('Red') > -1) {
-      lineColor = 'red-line';
-    }
-    else if (line.indexOf('Green Line') > -1) {
-      lineColor = 'green-line';
-    }
-    else if (line.indexOf('Orange') > -1) {
-      lineColor = 'orange-line';
-    }
-    else if (line.indexOf('Blue') > -1) {
-      lineColor = 'blue-line';
-    }
-    else if (line.indexOf('SL') > -1) {
-      lineColor = 'silver-line';
-    }
-    else // Everything else is a commuter line
-      lineColor = 'purple-line';
+    var lineColor = 'blue-line';
 
     return lineColor;
   }
