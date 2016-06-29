@@ -49,6 +49,17 @@ body {
 .red-line {
   background-color: #C60813;
 }
+.peach-line {
+  background-color: #ff3333;
+}
+
+.aqua-line {
+  background-color: #14F3F3;
+}
+
+.yellow-line {
+  background-color: #DDF314;
+}
 
 .orange-line {
   background-color: #FA6820;
@@ -58,8 +69,20 @@ body {
   background-color: #0A6536;
 }
 
+.babyblue-line {
+  background-color: #0074D9;
+}
+
 .blue-line {
   background-color: #041299;
+}
+
+.maroon-line {
+  background-color: #85144b;
+}
+
+.olive-line {
+  background-color: #3D9970;
 }
 
 .purple-line {
@@ -72,11 +95,11 @@ body {
 
 h1.transport-type {
   text-align: left;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1em;
   margin: 0;
   text-transform: uppercase;
-  color: #B3B3B3;
+  color: #191970;
 }
 
 ul.slogans {

@@ -31,7 +31,16 @@ Template.landing.events({
 });
 
 Template.landing.helpers({
-  regions: function() {
+  southeast: function() {
     return listOfLines().se;
+  },
+  gulfcoast: function() {
+    return listOfLines().gc;
+  },
+  northeast: function() {
+    return listOfLines().ne;
+  },
+  westcoast: function() {
+    return listOfLines().wc;
   },
 });
